@@ -10,3 +10,19 @@ Salesforce is a customer relationship management (CRM) platform that helps busin
 platform that offers a range of tools and features for sales, customer service, marketing, and collaboration. Salesforce provides a centralized place to store customer
 data, track customer interactions, and manage customer relationships. It also offers a range of customization options, allowing businesses to tailor the platform to
 their specific needs and workflows.
+
+There are many opportunities in today's market for professionals with expertise in Salesforce. Demand for skilled Salesforce professionals is high across a range of
+industries, and many companies are looking to hire individuals with experience in the platform. There are a variety of roles that Salesforce professionals can pursue,
+including:
+
+Salesforce administrator: responsible for managing the day-to-day operations of a company's Salesforce instance, including configuring and maintaining the platform,
+managing users, and handling data migration and integration.
+
+Salesforce developer: responsible for customizing and extending the functionality of a company's Salesforce instance, using programming languages such as Apex and
+Visualforce.
+
+Salesforce consultant: work with clients to assess their business needs and implement solutions using Salesforce, often providing training and support as well.
+
+Salesforce project manager: responsible for overseeing the implementation of Salesforce projects, including managing budgets, resources, and timelines.
+
+With the right skills and experience, Salesforce professionals can find a wide range of opportunities in today's job market.
