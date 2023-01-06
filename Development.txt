@@ -1,0 +1,14 @@
+To become a strong Salesforce developer, here are some things you can do:
+
+Take online courses or earn a degree in a related field such as computer science or information technology.
+
+Familiarize yourself with the Salesforce platform and its various features and capabilities. You can do this through the Salesforce Trailhead learning platform 
+or through self-study.
+
+Get certified in Salesforce development. Salesforce offers a number of certification exams that test your knowledge of the platform and its development tools.
+
+Gain practical experience by working on real-world projects and building custom applications on the Salesforce platform.
+
+Stay up to date with the latest trends and best practices in Salesforce development by reading industry blogs and participating in online communities.
+
+Consider joining a Salesforce user group or attending Salesforce-related events to network with other professionals and learn from experts in the field.
