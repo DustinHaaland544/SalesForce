@@ -6,6 +6,8 @@ Full Course (Edureka): https://youtu.be/I3Dk3i4GpU8
 
 Beginners (Simplilearn): https://youtu.be/f1AMkMQw-p4
 
+Future: https://youtu.be/9dkqZYncwaM
+
 Salesforce is a customer relationship management (CRM) platform that helps businesses manage and track customer interactions, sales, and support. It is a cloud-based
 platform that offers a range of tools and features for sales, customer service, marketing, and collaboration. Salesforce provides a centralized place to store customer
 data, track customer interactions, and manage customer relationships. It also offers a range of customization options, allowing businesses to tailor the platform to
