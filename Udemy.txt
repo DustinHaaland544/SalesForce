@@ -3,3 +3,7 @@ www.udemy.com/course/pass-the-salesforce-admin-certification-2022
 www.udemy.com/course/salesforce-administrator
 
 www.udemy.com/course/salesforce-flows
+
+www.udemy.com/course/salesforce-lightning-flow-builder-the-complete-guide
+
+www.udemy.com/course/debugging-salesforce-for-admins-developers
