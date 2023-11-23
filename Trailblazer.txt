@@ -5,3 +5,5 @@ Profile: https://trailblazer.me/id/nasifshah544
 Link: https://trailhead.salesforce.com
 
 Roadmap: https://youtu.be/6X_NxrygND4
+
+Documentation & Resources: https://youtu.be/zsf2oPD1Q20?si=-ZOMK0AOMXjdq3xz
