@@ -1,0 +1,1 @@
+https://architect.salesforce.com/fundamentals/platform-sharing-architecture
