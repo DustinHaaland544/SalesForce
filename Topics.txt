@@ -185,5 +185,4 @@ Final Preparation
 
 - Focus on Flows, Sharing Rules, and Reports/Dashboards
 
-
 Map each of the bullet points with the format and put it to ChatGPT to make the best out of each points
