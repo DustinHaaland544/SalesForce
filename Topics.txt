@@ -1,0 +1,189 @@
+Salesforce Admin Exam Study Plan (Chronological Order):
+
+1. Salesforce Ecosystem Overview
+
+- What is Salesforce?
+
+- Types of Clouds (Sales, Service, Experience, Marketing, etc.)
+
+- Salesforce Editions
+
+- AppExchange
+
+
+2. Org Setup
+
+- Company Profile (fiscal year, currency, business hours)
+
+- Users and Licenses
+
+- Login access, IP Ranges, Login Hours
+
+- Language and Locale Settings
+
+
+3. User Management
+
+- Creating and managing Users
+
+- Profiles vs Roles
+
+- Permission Sets and Permission Set Groups
+
+- Delegated Administration
+
+
+4. Security and Access
+
+- Object-Level Security (Profiles & Permission Sets)
+
+- Field-Level Security
+
+- Record-Level Security
+
+	-> Organization-Wide Defaults (OWD)
+
+	-> Role Hierarchy
+
+	-> Sharing Rules
+
+	-> Manual Sharing
+
+	-> Teams (Account, Opportunity)
+
+	-> Apex Sharing (advanced)
+
+
+5. Standard and Custom Objects
+
+- Object relationships (lookup vs master-detail)
+
+- Schema Builder
+
+- Record Types
+
+- Business Process (Sales, Support)
+
+
+6. Sales and Marketing Applications
+
+- Leads, Opportunities, Accounts, Contacts
+
+- Lead Conversion
+
+- Products, Price Books, Quotes
+
+- Campaigns and Campaign Influence
+
+
+7. Service and Support Applications
+
+- Cases, Solutions, Knowledge Base
+
+- Service Console
+
+- Case Assignment Rules
+
+- Escalation Rules
+
+
+8. Activity Management and Collaboration
+
+- Tasks, Events, and Calendars
+
+- Chatter (feeds, groups, mentions)
+
+- Email Templates and Email-to-Case
+
+
+9.  Data Management
+
+- Import Wizard vs Data Loader
+
+- Data Export and Backup
+
+- Mass Transfer Records
+
+- Data Quality Tools (Validation Rules, Duplicate Rules)
+
+
+10. Analytics and Reports
+
+- Report Types
+
+- Report Formats (Tabular, Summary, Matrix, Joined)
+
+- Dashboards (Components, Running User)
+
+- Report Filters and Bucketing
+
+
+11. Workflow/Process Automation
+
+- Validation Rules
+
+- Approval Processes
+
+- Workflow Rules (deprecated but still tested)
+
+- Process Builder (deprecated but still tested)
+
+- Flow (most important)
+
+	-> Record-triggered, Screen Flows
+
+	-> Flow Builder, Debugging, Variables
+
+
+12. App Deployment
+
+-> Change Sets
+
+-> Sandboxes (Dev, Partial, Full)
+
+-> Package Installation from AppExchange
+
+
+13. Mobile and Desktop
+
+- Salesforce Mobile App
+
+- Lightning Experience vs Classic
+
+- App Launcher, Navigation, Compact Layouts
+
+
+14. Productivity and Collaboration
+
+- Email Integration (Outlook, Gmail)
+
+- Activities
+
+- Lightning Experience Customizations
+
+
+15. Support and Monitoring
+
+- Login Forensics
+
+- Health Check
+
+- Debug Logs
+
+- Setup Audit Trail
+
+- Field History Tracking
+
+
+Final Preparation
+
+- Review Trailhead Admin Certification Trail
+
+- Take Practice Exams
+
+- Review Flashcards (especially for terminology & limits)
+
+- Focus on Flows, Sharing Rules, and Reports/Dashboards
+
+
+Map each of the bullet points with the format and put it to ChatGPT to make the best out of each points
