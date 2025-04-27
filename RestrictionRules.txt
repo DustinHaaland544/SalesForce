@@ -1,0 +1,5 @@
+https://help.salesforce.com/s/articleView?id=platform.security_restriction_rule.htm&type=5
+
+https://help.salesforce.com/s/articleView?id=platform.security_restriction_rule_create.htm&type=5
+
+https://youtu.be/5OJpTHx_jAk?si=qyC9DdWnyWgynw0Z
