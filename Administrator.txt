@@ -4,6 +4,8 @@ Exam Guide: https://trailhead.salesforce.com/help?article=Salesforce-Certified-A
 
 High-Level Overview of the Exam Guide: https://trailhead.salesforce.com/content/learn/modules/administrator-certification-prep-setup-and-objects/get-started-with-administrator-certification-prep [V.V.I]
 
+Trailhead Exam Preparation: https://trailhead.salesforce.com/content/learn/trails/administrator-certification-prep 
+
 Creating Configuration and Setup Study Guide: Udemy Lecture Number - 46
 
 Dissecting and Analyzing Trailhead Trailmixes with ChatGPT: Udemy Lecture Number - 47
