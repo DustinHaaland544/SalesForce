@@ -17,3 +17,5 @@ Creating Configuration and Setup Practice Test Questions with ChatGPT: Udemy Lec
 Dissecting and Analyzing Trailhead Superbadges with ChatGPT: Udemy Lecture Number - 50
 
 Trailhead Admin Practice Test: https://developer.salesforce.com/files/ti/thi/THI-000393/administratorpracticetest.html
+
+SalesForce Ben Exams: www.salesforceben.com/salesforce-admin-practice-exam
