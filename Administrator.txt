@@ -15,3 +15,5 @@ Dissecting and Analyzing Trailhead Trails with ChatGPT: Udemy Lecture Number - 4
 Creating Configuration and Setup Practice Test Questions with ChatGPT: Udemy Lecture Number - 49
 
 Dissecting and Analyzing Trailhead Superbadges with ChatGPT: Udemy Lecture Number - 50
+
+Trailhead Admin Practice Test: https://developer.salesforce.com/files/ti/thi/THI-000393/administratorpracticetest.html
