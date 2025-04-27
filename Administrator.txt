@@ -1,3 +1,13 @@
+www.udemy.com/course/salesforce-administrator
+
 Exam Guide: https://trailhead.salesforce.com/help?article=Salesforce-Certified-Administrator-Exam-Guide
 
-ChatGPT Study Guide: Udemy Lecture Number - 46
+Creating Configuration and Setup Study Guide: Udemy Lecture Number - 46
+
+Dissecting and Analyzing Trailhead Trailmixes with ChatGPT: Udemy Lecture Number - 47
+
+Dissecting and Analyzing Trailhead Trails with ChatGPT: Udemy Lecture Number - 48
+
+Creating Configuration and Setup Practice Test Questions with ChatGPT: Udemy Lecture Number - 49
+
+Dissecting and Analyzing Trailhead Superbadges with ChatGPT: Udemy Lecture Number - 50
