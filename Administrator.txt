@@ -18,4 +18,6 @@ Dissecting and Analyzing Trailhead Superbadges with ChatGPT: Udemy Lecture Numbe
 
 Trailhead Admin Practice Test: https://developer.salesforce.com/files/ti/thi/THI-000393/administratorpracticetest.html
 
+Trailmix Exam Index: https://trailhead.salesforce.com/users/strailhead/trailmixes/prepare-for-your-salesforce-administrator-credential
+
 SalesForce Ben Exams: www.salesforceben.com/salesforce-admin-practice-exam
