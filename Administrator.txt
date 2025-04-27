@@ -1,1 +1,3 @@
 Exam Guide: https://trailhead.salesforce.com/help?article=Salesforce-Certified-Administrator-Exam-Guide
+
+Udemy Lecture Number - 46
