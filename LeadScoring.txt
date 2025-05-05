@@ -1,0 +1,3 @@
+Einstein Lead Scoring: https://help.salesforce.com/s/articleView?id=ai.einstein_sales_lead_insights.htm&type=5
+
+Enable Einstein Lead Scorng: https://help.salesforce.com/s/articleView?id=ai.einstein_sales_setup_enable_lead_insights.htm&type=5
