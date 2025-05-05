@@ -100,6 +100,7 @@ Then, achieve both above to qualify for:
 - Focuses on stakeholder engagement, requirements, user stories, and process mapping.
 
 🟣 9. AI and Data Certifications
+
 ✅ Salesforce Certified AI Associate (New)
 ✅ Salesforce Certified Data Cloud Consultant (New)
 
