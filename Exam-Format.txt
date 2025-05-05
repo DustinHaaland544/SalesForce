@@ -1,0 +1,26 @@
+The Salesforce Certified Administrator Exam consists of:
+
+- 60 scored multiple-choice questions
+
+- 5 unscored pretest questions (these are for research and do not count toward your score)
+
+
+Breakdown:
+
+- Total questions: 65
+
+- Questions that count: 60
+
+- Questions that don’t count (pretest): 5 (randomly mixed in, you won’t know which)
+
+
+Time Limit:
+
+- 105 minutes (1 hour and 45 minutes)
+
+
+Passing Score:
+
+- 65%
+
+	- So you need at least 39 correct answers out of 60 scored questions.
