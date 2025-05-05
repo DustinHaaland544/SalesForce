@@ -1,0 +1,114 @@
+Here's a chronological roadmap of Salesforce certifications, starting from beginner to advanced level. These are grouped into career paths and organized from foundational to 
+expert/specialized certifications.
+
+🟢 1. Foundational (Beginner Level)
+
+These are great starting points for anyone new to Salesforce.
+
+✅ [Salesforce Associate (Newbie-friendly)]
+
+- For beginners with 0–6 months of Salesforce experience.
+
+- Covers basic navigation, data model, and productivity.
+
+🔵 2. Administrator Path
+
+For those who want to manage users, security, data, and configuration.
+
+✅ Salesforce Certified Administrator (Admin Cert)
+
+- Core certification for system administrators.
+
+- Prerequisite for many advanced certs.
+
+🔄 Salesforce Certified Advanced Administrator
+
+- Builds on the Admin Cert.
+
+- Deeper into automation, analytics, and security.
+
+🟣 3. App Builder Path
+
+For low-code builders who create custom apps using declarative tools.
+
+✅ Salesforce Certified Platform App Builder
+
+- Focuses on declarative customization (objects, flows, page layouts).
+
+🟠 4. Developer Path
+
+- For coders using Apex, LWC, and integrations.
+
+✅ Salesforce Certified Platform Developer I
+
+- Intro to Apex, triggers, LWC basics.
+
+✅ Salesforce Certified Platform Developer II
+
+- Advanced coding, design patterns, testing, integrations.
+
+🟡 5. Architect Path
+
+- For those designing complex, scalable Salesforce solutions.
+
+✅ Salesforce Certified Data Architect
+✅ Salesforce Certified Sharing and Visibility Architect
+✅ Salesforce Certified Integration Architect
+✅ Salesforce Certified Identity and Access Management Architect
+✅ Salesforce Certified Development Lifecycle and Deployment Architect
+
+👉 Achieve these 4-5 domain architect certs to qualify for:
+
+🏆 Salesforce Certified Application Architect
+🏆 Salesforce Certified System Architect
+
+Then, achieve both above to qualify for:
+
+👑 Salesforce Certified Technical Architect (CTA) (most advanced)
+
+- Requires a board presentation and deep solution design knowledge.
+
+- Considered the Ph.D. of Salesforce.
+
+🟤 6. Consultant Path
+
+- For business analysts and consultants working on implementations.
+
+✅ Salesforce Certified Sales Cloud Consultant
+✅ Salesforce Certified Service Cloud Consultant
+✅ Salesforce Certified Experience Cloud Consultant
+✅ Salesforce Certified Marketing Cloud Consultant
+✅ Salesforce Certified Nonprofit Cloud Consultant
+✅ Salesforce Certified Education Cloud Consultant
+✅ Salesforce Certified Field Service Consultant
+✅ Salesforce Certified OmniStudio Consultant (Industries)
+
+🔴 7. Marketing Cloud Path
+
+- For marketing professionals using Salesforce Marketing Cloud.
+
+✅ Marketing Cloud Email Specialist
+✅ Marketing Cloud Administrator
+✅ Marketing Cloud Consultant
+✅ Marketing Cloud Developer
+✅ Marketing Cloud Account Engagement Specialist (formerly Pardot)
+✅ Marketing Cloud Account Engagement Consultant (formerly Pardot)
+
+⚫ 8. Business Analyst
+✅ Salesforce Certified Business Analyst
+
+- Focuses on stakeholder engagement, requirements, user stories, and process mapping.
+
+🟣 9. AI and Data Certifications
+✅ Salesforce Certified AI Associate (New)
+✅ Salesforce Certified Data Cloud Consultant (New)
+
+🎯 Suggested Beginner Path:
+
+- Salesforce Associate
+
+- Salesforce Administrator
+
+- Platform App Builder
+
+- Sales/Service Cloud Consultant or Developer I
