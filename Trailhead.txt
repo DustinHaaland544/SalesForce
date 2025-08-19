@@ -1,8 +1,93 @@
-Login: https://login.salesforce.com
+SALESFORCE TRAILHEAD ADMIN BADGES
 
-Site: nasifshah-dev-ed.develop.my.salesforce.com
+Perfect – thank you for clarifying. Since, your goal is Salesforce Administrator Certification + job-readiness, your Trailhead journey should be laser-focused on Amin-relevant badges, projects, and super-badges only. 
 
-Dashboard: https://nasifshah-dev-ed.develop.lightning.force.com/lightning/setup/SetupOneHome/home
+Here is a streamlined, certification-aligned plan that starts at zero Trailhead experience and gets you to “job-ready Admin with portfolio proof.” 
 
-nasifshah548@gmail.com
-MC@2020
+1.Salesforce Admin Trailhead Plan (Beginner -> Certified -> Job-Ready) 
+	-	Guiding Principles:
+			i)	Do not chase all badges. Focus on core Admin exam topics.
+			ii)	Modules -> Projects -> Super-badges. Build in that order.
+			iii)	Portfolio impact > badge count. 40-60 focused badges + 3 – 5 super badges look far stronger than 200 scattered badges. 
+			iv)	Parallel study + Trailhead. Use Trailhead as your hands-on practice while studying exam concepts. 
+
+2.Phase – 1: Getting Started 
+	-	Goal: Get comfortable with Trailhead + org basics.
+		i)	Create Trailblazer profile -> make it public. 
+		ii)	Modules:
+				Salesforce Platform Basics
+				Trailhead Playground Management 
+				User Management 
+				Company Information & Org Setting 
+		iii)	Build a Simple App (Lightning App Builder) 
+		iv)	Deliverable: Add Trailblazer profile link to your resume. 
+
+3.	Phase – 2: Core Admin Fundamentals 
+	-	Goal: Build strong foundations in the exam domains
+	-	Modules: 
+		i)	Data Modeling (Objects, Fields, Relationships)
+		ii)	Formats & Validations
+		iii)	Record Types & Page Layouts
+		iv)	Picklist Administration
+		v)	Profiles & Permission Sets 
+		vi)	Org Security & User Access
+		vii)	Sharing Rules
+		viii)	Reports & Dashboards
+		ix)	Data Management (Import Wizard, Data Loader concepts) 
+	-	Projects:
+		i)	Customize a Salesforce Object 
+		ii)	Build a Report & Dashboard
+				Super-badge (first one): Business Administration Specialist 
+
+4.	Phase – 3: Automation & Productivity
+	-	Goal: Get comfortable with Flow (the #1 Admin skill now)
+	-	Modules: 
+		i)	Flow Builder Basics
+		ii)	Record-Triggered Flow
+		iii)	Screen Flow
+		iv)	Automation with Approval Processes (legacy but still testable) 
+		v)	Email Templates & Alerts
+				Project: Build an Account Onboarding Flow
+				Super-badge: Process Automation Specialist 
+
+5.	Phase – 4: Analytics & Reporting
+	-	Goal: Prove you can deliver insights for users/executives 
+	-	Modules: 
+		i)	Advanced Reports & Dashboards
+		ii)	Row-Level Formulas
+		iii)	Report Types & Filters
+				Project: Create a Sales Manager Dashboard
+				Super-badge: Reports & Dashboards Specialist
+
+6.	Phase – 5: Security & Access Mastery
+	-	Goal: Nail Security – it is a big chunk of the exam
+	-	Modules: 
+		i)	Field-Level Security
+		ii)	Org Security & Login Access
+		iii)	Permission Sets vs Profiles
+		iv)	Sharing & Visibility
+				Lab/Project: Build least-privilege access model
+				Super-badge: Security Specialist 
+
+7.	Phase – 6: Job-Ready + Exam Prep
+	-	Goal: Pull everything together and prepare for certification 
+	-	Module:
+		i)	Service Cloud for Lightning Experience (Cases, Queues, Service Cloud)
+		ii)	Sales Cloud Basics (Leads, Opportunities, Forecasting)
+		iii)	Data Quality
+		iv)	Charge Management & Sandboxes
+				Super-badge (capstone): Admin Super Set (combo of the 3 you already earned: Business Admin, Process Automation, Reports & Dashboards). 
+				Exam Prep: Take official Admin Certification Preparation Trailmix + Practice questions 
+				Deliverable: Add Salesforce Administration Certification Candidate + link to your public Trailblazer profile on your resume
+8.	Ongoing Portfolio Hygiene
+	i)	After each project/super-badge
+			Write a 3-4 sentences case study (Problem -> What you built -> Value)
+			Add screenshots of Flows, Reports, Dashboards, 
+	ii)	Example:
+		“Built a Record-Triggered Flow to auto-assign new Leads based on region and send email notifications to owners. Reduced manual assignment time by ~80%.”
+
+9.	Expected Outcomes
+	i)	40-60 core Admin badges (exam-relevant only).
+	ii)	4-5 Super-badges (Admin Super Set = Gold Standard)
+	iii)	Certification: Salesforce Certified Administrator
+	iv)	Portfolio: Real screenshots, Trailblazer profile, proof of hands-on practice 
