@@ -1,0 +1,8 @@
+Login: https://login.salesforce.com/
+
+Dashboard: https://trailhead.salesforce.com/today
+
+nasifshah548@gmail.com
+MC@2020
+
+Admin Responsibilities: https://trailhead.salesforce.com/content/learn/trails/explore-core-salesforce-administrative-responsibilities
