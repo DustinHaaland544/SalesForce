@@ -1,0 +1,50 @@
+TRAILHEAD LIST
+
+You do not need to hunt each badge one-by-one. You have got two easy ways:
+
+1.Use an official, prebuilt path (zero setup).
+	-Admin Beginner trail – everything is already listed and ordered; just work top-to-bottom. 
+	-Prepare for your Salesforce Administrator credential (official Trailmix) – curated by Salesforce specifically for the exam. Open it and click “Start.”
+
+2.Follow my custom sequence below (with direct links).
+If you prefer my step-by-step order, just keep this list and click through; no searching needed. You can also paste these into your own Trailmix (instructions right after the list). 
+
+Phase – 1: Setup & Core Platform
+	- Salesforce Platform Basics: https://trailhead.salesforce.com/content/learn/modules/starting_force_com?utm_source=chatgpt.com
+	- Trailhead Playground Management: https://trailhead.salesforce.com/content/learn/modules/trailhead_playground_management?utm_source=chatgpt.com
+	- Lightning App Builder: https://trailhead.salesforce.com/content/learn/modules/lightning_app_builder?utm_source=chatgpt.com
+	- User Management: https://trailhead.salesforce.com/content/learn/modules/lex_implementation_user_setup_mgmt?utm_source=chatgpt.com
+
+Phase – 2: Data Model & UI
+	- Data Modeling: https://trailhead.salesforce.com/content/learn/modules/data_modeling?utm_source=chatgpt.com
+	- Picklist Administration: https://trailhead.salesforce.com/content/learn/modules/lex_implementation_data_management?utm_source=chatgpt.com
+
+Phase – 3: Security & Access
+	- Data Security: https://trailhead.salesforce.com/content/learn/trails/build-flows-with-flow-builder?utm_source=chatgpt.com
+	- Profiles & Permission Sets: https://trailhead.salesforce.com/content/learn/modules/lex_implementation_reports_dashboards?utm_source=chatgpt.com
+	- Login & Access Management: https://trailhead.salesforce.com/content/learn/modules/screen-flows/build-a-screen-flow?utm_source=chatgpt.com
+	- Identity Basics: https://trailhead.salesforce.com/users/akshaypoddar/trailmixes/salesforce-platform-basics?utm_source=chatgpt.com
+
+Phase – 4: Automation (Flows)
+	- Flow Builder Basics: https://trailhead.salesforce.com/content/learn/modules/flow-basics?utm_source=chatgpt.com
+	- Build a Record-Triggered Flow: https://trailhead.salesforce.com/content/learn/modules/record-triggered-flows?utm_source=chatgpt.com
+	- Build a Screen Flow: https://trailhead.salesforce.com/content/learn/modules/screen-flows?utm_source=chatgpt.com
+
+Phase – 5: Data Management & Reporting
+	- Data Management: https://trailhead.salesforce.com/content/learn/modules/lex_implementation_data_management?utm_source=chatgpt.com
+	- Data Quality: https://trailhead.salesforce.com/content/learn/modules/data_quality?utm_source=chatgpt.com
+	- Duplicate Management: https://trailhead.salesforce.com/content/learn/modules/sales_admin_duplicate_management?utm_source=chatgpt.com
+	- Reports & Dashboards: https://trailhead.salesforce.com/content/learn/modules/lex_implementation_reports_dashboards?utm_source=chatgpt.com
+
+
+Phase – 6: Cloud Fundamentals (context for real admin work)
+	- Accounts & Contacts for Lightning Experience: https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_sharing_rules?utm_source=chatgpt.com
+	- Leads & Opportunities for Lightning Experience: https://trailhead.salesforce.com/content/learn/modules/data_security?utm_source=chatgpt.com
+	- Service Cloud Basics: https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_fields?utm_source=chatgpt.com
+	- Case Management: https://trailhead.salesforce.com/content/learn/modules/identity_login?utm_source=chatgpt.com
+
+(Optional) Capstones that look great on a resume
+	- Open the Traimixes page. Click Create Trailmix. https://trailhead.salesforce.com/trailmixes?utm_source=chatgpt.com
+	- Give it a name (e.g., “My Admin Path”), paste each module URL from the list above, and arrange the order. Trailhead’s own docs describe Trailmixes as a custom playlist that you control.  
+     
+
