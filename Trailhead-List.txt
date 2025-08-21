@@ -2,13 +2,13 @@ TRAILHEAD LIST
 
 You do not need to hunt each badge one-by-one. You have got two easy ways:
 
-1.Use an official, prebuilt path (zero setup).
+1. Use an official, prebuilt path (zero setup).
 	- Admin Beginner trail – everything is already listed and ordered; just work top-to-bottom. 
 	- Prepare for your Salesforce Administrator credential (official Trailmix) – curated by Salesforce specifically for the exam. Open it and click “Start.”
 
-2.Follow my custom sequence below (with direct links).
-If you prefer my step-by-step order, just keep this list and click through; no searching needed. You can also paste these into your own Trailmix (instructions 
-right after the list). 
+2. Follow my custom sequence below (with direct links).
+   If you prefer my step-by-step order, just keep this list and click through; no searching needed. You can also paste these into your own Trailmix (instructions 
+   right after the list). 
 
 Phase – 1: Setup & Core Platform
 	- Salesforce Platform Basics: https://trailhead.salesforce.com/content/learn/modules/starting_force_com?utm_source=chatgpt.com
