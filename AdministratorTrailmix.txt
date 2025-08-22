@@ -1,3 +1,6 @@
 My Administrator Trailmix: https://trailhead.salesforce.com/users/zly45efofw49ksl46v/trailmixes/administrator-trail
 
+Official Admin Exam Trailmix: https://trailhead.salesforce.com/users/strailhead/trailmixes/prepare-for-your-salesforce-administrator-credential 
+[Separate from Administrator-Trail] 
+
 https://trailhead.salesforce.com/users/strailhead/trailmixes/prepare-for-your-salesforce-administrator-credential
