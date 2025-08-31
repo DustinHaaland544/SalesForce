@@ -1,0 +1,250 @@
+Part A: Salesforce Platform Basics & Fundamentals
+
+1. Cloud Computing & Salesforce Overview [Noted] - 48
+
+2. Salesforce Editions [Noted] - 49
+
+3. Multi-Tenant Architecture [Noted] - 50
+
+4. Salesforce Data Model [Noted] - 51
+
+Part B: Standard & Custom Objects
+
+5. Objects and Fields [Noted] - 52
+
+6. Object Manager [Noted] 
+
+7. Standard Objects vs Custom Objects [Noted] - 53
+
+8. Junction Object [Noted] 
+
+9. Schema Builder [Noted] 
+
+10. Record Types [Noted] - 54
+
+11. Business Process (for Lead, Opportunity, Case) [Noted] - 55
+
+12. Field Types (Auto Number, Picklist, Lookup, etc.) [Noted] - 56
+
+13. Validation Rules [Noted] 
+
+14. Formula Fields (including Summary & Row-Level Formulas) [Noted] - 57
+
+15. Roll-Up Summary Fields [Noted] - 58
+
+16. Lookup vs Master-Detail Relationships [Noted] - 59
+
+17. Data Types vs Metadata [Noted] 
+
+Part C: User Interface & App Customization
+
+18. Page Layouts [Noted] - 60
+
+19. Compact Layouts [Noted] - 61
+
+20. Record Page & Lightning App Builder [Noted] - 62 
+
+21. Apps and App Menu [Noted] 
+
+22. Lightning App Builder [Noted] 
+
+23. Global Actions & Object-Specific Actions [Noted] - 63
+
+24. User Interface Settings [Noted] 
+
+25. List Views [Noted] 
+
+26. Search Layouts [Noted] - 64
+
+27. Tabs, Apps, Navigation [Noted] - 65 
+
+Part D: Security & Access
+
+28. Profiles [Noted] - 66
+
+29. Permission Sets [Noted] - 67
+
+30. Users [Noted] - 68
+
+31. Freezing Users [Noted] 
+
+32. Login Hours [Noted] 
+
+33. Login IP Ranges [Noted] - 69
+
+34. Profile User Interface [Noted] 
+
+35. Organization-Wide Defaults (OWD) [Noted] - 70
+
+36. Role Hierarchy [Noted] - 71
+
+37. Sharing Rules [Noted] - 72
+
+38. Manual Sharing [Noted] - 73 
+
+39. Sharing Architectures [Noted] 
+
+40. Setup Audit Trail [Noted] 
+
+41. Session Settings [Noted]
+
+Part E: Company Settings & Organization Setup
+
+42. Business Hours [Noted] 
+
+43. Fiscal Year Settings [Noted] - 74
+
+44. Currency Management [Noted] 
+
+Part F: Data Management
+
+45. Data Management [Noted] - 75 
+
+46. Import Wizard [Noted] - 76 
+
+47. Data Loader [Noted] 
+
+48. dataloader.io [Noted] 
+
+49. Recycle Bin [Noted] 
+
+50. Restoring from Recycle Bin [Noted] - 77
+
+51. Mass Deletion [Noted] 
+
+52. Duplicate Management & Duplicate Rules [Noted] 
+
+53. Data Validation & Cleanliness [Noted] - 78
+
+54. Data Backup and Recovery Options [Noted] - 79 
+
+Part G: Activity Management & Collaboration
+
+55. Activity Management (Tasks, Events, Calls) [Noted] 
+
+56. Tasks [Noted] 
+
+57. Events [Noted] - 80
+
+58. Calls [Noted] 
+
+59. Chatter [Noted] 
+
+60. Productivity & Collaboration Tools [Noted] 
+
+61. Salesforce Mobile App [Noted] 
+
+Part H: AppExchange & Salesforce Ecosystem
+
+62. AppExchange [Noted] 
+
+63. Trailhead, Help, and Documentation Resources [Noted] - 81
+
+64. System Status and Trust Site [Noted] - 82 
+
+Part I: Reports & Dashboards
+
+65. Reports (Tabular, Summary, Matrix, Joined, Historical Trend, etc.) [Noted] 
+
+66. Dashboards [Noted] 
+
+67. Salesforce Dynamic Dashboards [Noted] 
+
+68. Summary Formulas & Row-Level Formulas [Noted] 
+
+69. Filters, Buckets, Grouping, Conditional Formatting [Noted] - 83
+
+Part J: Service & Support Applications
+
+70. Email Templates [Noted] - 84
+
+71. Email-to-Case [Noted] - 85
+
+72. Web-to-Case [Noted] - 86
+
+73. Case Management [Noted] - 87
+
+74. Leads [Noted] 
+
+75. Opportunities [Noted] 
+
+76. Lead Conversion [Noted] - 88
+
+77. Opportunity Stages [Noted] - 89 
+
+78. Path & Guidance for Success [Noted] - 90
+
+Part K: Process Automation
+
+79. Flow Builder (Screen Flow, Auto-Launch Flow) [Noted] 
+
+80. Workflow Rules [Noted] 
+
+81. Process Builder [Noted] - 91
+
+82. Approval Processes [Noted] 
+
+83. Process Automation Best Practices [Noted] 
+
+Part L: Service Console Features
+
+84. Omni-Channel [Noted] 
+
+85. Queues [Noted] - 92
+
+86. Assignment Rules [Noted] - 93
+
+87. Escalation Rules [Noted] - 94
+
+Part M: Einstein & AI Features (Awareness Only)
+
+88. Einstein Prediction Builder [Noted] 
+
+89. Einstein GPT [Noted] 
+
+90. Einstein Bot [Noted] 
+
+Part N: Change Management & Environments
+
+91. Change Sets [Noted] - 95 
+
+92. Sandboxes [Noted] - 96
+
+93. Deployment Basics [Noted] - 97
+
+Part O: System Monitoring & Audit Tools
+ 
+94. Audit & Troubleshooting Tools (Debug Logs, Login History, etc.) [Noted] - 98
+
+95. Field History Tracking [Noted] - 99 
+
+96. Security Best Practices [Noted] - 100
+
+Part P: Exam Readiness
+
+97. Exam Strategy and Practice Tests
+
+98. Data Generation Tools (for testing/demos) [Noted] 
+
+99. Apex Code & Apex Classes (Basic Understanding – not required to write code, but recognize use cases) [Noted] 
+
+
+- Complete Salesforce's Trailhead Modules in order to prepare for the exam: https://trailhead.salesforce.com
+
+- Salesforce Help: https://help.salesforce.com 
+
+- Salesforce Documentation: https://developer.salesforce.com/docs
+
+- Salesforce Q&A Community Forum: https://trailblazer.salesforce.com 
+
+Format:
+
+- Number of questions asked: 65
+
+- Needs to score correct: 39
+
+- Time: 105 minutes
+
+- Fee: US$ 200
+
+- Retake Fee: US$ 100
