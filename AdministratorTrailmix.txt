@@ -4,3 +4,12 @@ Official Admin Exam Trailmix: https://trailhead.salesforce.com/users/strailhead/
 [Separate from Administrator-Trail] 
 
 https://trailhead.salesforce.com/users/strailhead/trailmixes/prepare-for-your-salesforce-administrator-credential
+
+
+How to Find Your Trailmixes:
+
+On Trailhead, click your profile avatar (top-right).
+
+Select “My Trailhead” → “Trailmixes”.
+
+Or go directly to: https://trailhead.salesforce.com/trailmixes
