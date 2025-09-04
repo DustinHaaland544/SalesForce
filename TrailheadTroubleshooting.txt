@@ -1,0 +1,35 @@
+Step not yet complete … We had an issue checking your challenge Error:
+
+1. Refresh & Retry
+
+  - Click Check Challenge again after refreshing the page.
+  - Sometimes Trailhead servers hiccup and don’t validate properly on the first attempt.
+
+2. Log Out & Log Back In
+
+  - Log out of Trailhead.
+  - Log back into the correct Trailhead Playground (TP) where you made the changes.
+  - Make sure the playground you’re checking against is the one you customized.
+
+3. Verify You’re in the Correct Playground
+
+  - In the challenge, click the dropdown next to “Launch” and confirm it’s pointing to My Trailhead Playground 1 (not a different org).
+  - If you made changes in another playground, Trailhead won’t detect them.
+
+4. Check the Home Page Customization
+
+  - Go to Setup → App Builder → Lightning App Builder.
+  - Confirm you customized the default Home Page or the one tied to your app.
+  - Ensure you activated and assigned it (e.g., “Set as Org Default” or “App Default”).
+  - If you only edited but didn’t activate, Trailhead won’t detect it.
+
+5. Clear Cache / Incognito Mode
+
+  - Clear your browser cache or try running Trailhead in an Incognito/Private window.
+  - Sometimes cached sessions cause validation glitches.
+
+  - Pro Tip: Trailhead checks for very specific things. For “Customize the Home Page” it usually expects:
+
+    -> You used Lightning App Builder to modify the Home Page.
+    -> You added a standard component (e.g., Key Deals, Assistant, Dashboard).
+    -> You activated the page and set it as default.
