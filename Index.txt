@@ -1,0 +1,148 @@
+Part A: Salesforce Platform Basics & Fundamentals
+
+1 - Book-2: Cloud Computing & Salesforce Overview
+2 - Book-3: Salesforce Editions
+3 - Book-3: Multi-Tenant Architecture
+4 - Book-3: Salesforce Data Model
+
+Part B: Standard & Custom Objects
+
+5 - Book-3: Objects & Fields
+6 - Book-1: Object Manager
+7 - Book-3: Standard Objects vs Custom Objects
+8 - Book-1: Junction Object
+9 - Book-1: Schema Builder
+10 - Book-3: Record Types
+11 - Book-3: Business Process (for Lead, Opportunity, Case)
+12 - Book-3: Field Types (Auto Number, Picklist, Lookup, etc.)
+13 - Book-1: Validation Rules
+14 - Book-3: Formula Fields (including Summary & Row-Level Formulas)
+15 - Book-3: Roll-Up Summary Fields
+16 - Book-3: Lookup vs Master-Detail Relationships
+17 - Book-1: Data Types vs Metadata
+
+Part C: User Interface & App Customization
+
+18 - Book-3: Page Layouts
+19 - Book-3: Compact Layouts
+20 - Book-3: Record Page & Lightning App Builder
+21 - Book-2: Apps and App Menu
+22 - Book-1: Lightning App Builder
+23 - Book-2: Global Actions
+24 - Book-3: Global Actions & Object-Specific Actions
+25 - Book-2: User Interface Settings
+26 - Book-2: List Views
+27 - Book-3: Search Layouts
+28 - Book-3: Tabs, Apps, Navigation
+
+Part D: Security & Access
+
+29 - Book-3: Profiles
+30 - Book-3: Permission Sets
+31 - Book-3: Users
+32 - Book-2: Freezing Users
+33 - Book-2: Login Hours
+34 - Book-3: Login IP Ranges
+35 - Book-2: Profile User Interface
+36 - Book-3: Organization-Wide Defaults (OWD)
+37 - Book-3: Role Hierarchy
+38 - Book-3: Sharing Rules
+39 - Book-4: Manual Sharing
+40 - Book-1: Sharing Architectures
+41 - Book-2: Setup Audit Trail
+42 - Book-2: Session Settings
+
+Part E: Company Settings & Organization Setup
+
+43 - Book-2: Business Hours
+44 - Book-4: Fiscal Year Settings
+45 - Book-2: Currency Management
+
+Part F: Data Management
+
+46 - Book-4: Data Management
+47 - Book-4: Data Import Wizard
+48 - Book-1: Data Loader
+49 - Book-1: Recycle Bin
+50 - Book-4: Restoring from Recycle Bin
+51 - Book-1: Mass Deletion
+52 - Book-1: Duplicate Management & Duplicate Rules
+53 - Book-4: Data Validation & Cleanliness
+54 - Book-4: Data Backup and Recovery Options
+
+Part G: Activity Management & Collaboration
+
+55 - Book-1: Activity Management (Tasks, Events, Calls)
+56 - Book-1: Tasks
+57 - Book-4: Events
+58 - Book-1: Calls
+59 - Book-1: Chatter
+60 - Book-1: Productivity & Collaboration Tools
+61 - Book-1: Salesforce Mobile App
+
+Part H: AppExchange & Salesforce Ecosystem
+
+62 - Book-1: AppExchange
+63 - Book-4: Trailhead, Help, and Documentation Resources
+64 - Book-4: System Status and Trust Site
+
+Part I: Reports & Dashboards
+
+65 - Book-2: Reports (Tabular, Summary, Matrix, Joined, Historical Trend, etc.)
+66 - Book-2: Dashboards
+67 - Book-2: Salesforce Dynamic Dashboards
+68 - Book-2: Summary Formulas & Row-Level Formulas
+69 - Book-4: Filters, Buckets, Grouping, Conditional Formatting
+
+Part J: Service & Support Applications
+
+70 - Book-4: Email Templates
+71 - Book-1: Cases
+72 - Book-4: Email-to-Case
+73 - Book-4: Web-to-Case
+74 - Book-4: Case Management
+75 - Book-1: Leads
+76 - Book-2: Opportunities
+77 - Book-4: Lead Conversion
+78 - Book-4: Opportunity Stages
+79 - Book-4: Path & Guidance for Success
+
+Part K: Process Automation
+
+80 - Book-2: Flow Builder (Screen Flow, Auto-Launch Flow)
+81 - Book-2: Workflow Rules
+82 - Book-4: Process Builder
+83 - Book-2: Approval Processes
+84 - Book-2: Process Automation Best Practices
+
+Part L: Service Console Features
+
+85 - Book-1: Omni-Channel
+86 - Book-4: Queues
+87 - Book-4: Assignment Rules
+88 - Book-4: Escalation Rules
+
+Part M: Einstein & AI Features (Awareness Only)
+
+89 - Book-2: Einstein Prediction Builder
+90 - Book-2: Einstein GPT
+91 - Book-2: Einstein Bot
+
+Part N: Change Management & Environments
+
+92 - Book-4: Change Sets
+93 - Book-5: Sandboxes
+94 - Book-5: Deployment Basics
+
+Part O: System Monitoring & Audit Tools
+
+95 - Book-5: Audit & Troubleshooting Tools (Debug Logs, Login History, etc.)
+96 - Book-5: Field History Tracking
+97 - Book-5: Security Best Practices
+
+Part P: Exam Readiness
+
+98 - Book- : Exam Strategy and Practice Tests
+99 - Book-1: Data Generation Tools (for testing/demos)
+100 - Book- :
+101 - Book-1: Apex Code & Apex Classes (Basic Understanding – not required to write code, but recognize use cases)
