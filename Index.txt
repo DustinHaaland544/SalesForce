@@ -142,6 +142,6 @@ Part O: System Monitoring & Audit Tools
 
 Part P: Exam Readiness
 
-98 - Book- : Exam Strategy and Practice Tests
-99 - Book-1: Data Generation Tools (for testing/demos)
-100 - Book-1: Apex Code & Apex Classes (Basic Understanding – not required to write code, but recognize use cases)
+98 - Book-1: Data Generation Tools (for testing/demos)
+99 - Book-1: Apex Code & Apex Classes (Basic Understanding – not required to write code, but recognize use cases)
+100 - Book-5: Exam Preparation 
