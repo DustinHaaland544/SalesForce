@@ -63,8 +63,8 @@ Part F: Data Management
 46 - Book-4: Data Management
 47 - Book-4: Data Import Wizard
 48 - Book-1: Data Loader
-49 - Book-1: Recycle Bin
-50 - Book-4: Restoring from Recycle Bin
+49 - Book-1: Dataloader.io
+50 - Book-1: Recycle Bin
 51 - Book-1: Mass Deletion
 52 - Book-1: Duplicate Management & Duplicate Rules
 53 - Book-4: Data Validation & Cleanliness
