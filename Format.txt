@@ -1,6 +1,12 @@
 Can you please give me a detailed, simplified and complete overview on the [] in Salesforce?
 
-Can you please generate 20 only scenario-based sample questions those are asked in the Salesforce Admin exam regarding []? Please generate them with each question having four different answer options, followed by the 
-correct option and the explanation, in a total Salesforce admin exam-style format. 
+Can you please generate 20 only scenario-based sample questions those are asked in the Salesforce Admin exam regarding []? Please generate them with each question having four different answer options, followed by the correct option and the explanation, in a total Salesforce admin exam-style format. And also please generate these questions on a black canvas and start in this style:
+
+Salesforce Admin Practice – "Name of the Topic" (20 Scenario-based Questions)
+
+Salesforce Admin Practice Exam
+Topic: Record Types
+
+Below are 20 scenario-based, Salesforce Admin exam-style questions focused on Record Types. Each question includes four answer options (A–D), the correct answer, and a clear explanation.
 
 Just like the topic of [] can you please list me all the topics in chronological order that I need to study in order to be fully prepared for the Salesforce Admin Exam?
