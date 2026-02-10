@@ -5,8 +5,8 @@ Can you please generate 20 only scenario-based sample questions those are asked 
 Salesforce Admin Practice – "Name of the Topic" (20 Scenario-based Questions)
 
 Salesforce Admin Practice Exam
-Topic: Record Types
+Topic: "Name of the Topic" 
 
-Below are 20 scenario-based, Salesforce Admin exam-style questions focused on Record Types. Each question includes four answer options (A–D), the correct answer, and a clear explanation.
+Below are 20 scenario-based, Salesforce Admin exam-style questions focused on "Name of the Topic". Each question includes four answer options (A–D), the correct answer, and a clear explanation.
 
 Just like the topic of [] can you please list me all the topics in chronological order that I need to study in order to be fully prepared for the Salesforce Admin Exam?
