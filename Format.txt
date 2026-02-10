@@ -9,4 +9,8 @@ Topic: "Name of the Topic"
 
 Below are 20 scenario-based, Salesforce Admin exam-style questions focused on "Name of the Topic". Each question includes four answer options (A–D), the correct answer, and a clear explanation.
 
+---------------------
+
+Exam Tip on the "Name of the Topic"
+
 Just like the topic of [] can you please list me all the topics in chronological order that I need to study in order to be fully prepared for the Salesforce Admin Exam?
