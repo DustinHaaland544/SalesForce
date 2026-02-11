@@ -11,8 +11,8 @@ Below are 20 scenario-based, Salesforce Admin exam-style questions focused on "N
 
 ---------------------
 
-Exam Tip on "Name of the Topic":
+Exam Tip on "Name of the Topic":'
 
-and please make the each answer option, the correct answer and the explanation start with a new line'
+and please make the each answer option, the correct answer and the explanation start with a new line
 
 Just like the topic of [] can you please list me all the topics in chronological order that I need to study in order to be fully prepared for the Salesforce Admin Exam?
