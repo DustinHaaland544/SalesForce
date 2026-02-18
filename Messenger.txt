@@ -1,0 +1,21 @@
+Github: https://github.com/robertbunch/reactFromTheBeginning/tree/master/airbnb-clone
+
+Salesforce ChatGPT Prompts: https://docs.google.com/document/d/1N14v1UVha4ebJaJij2XpEEXWFQt9wfthC166h8Uohi4/edit?tab=t.0#heading=h.4msudh86r7g8
+
+Tralihead Salesforce Admin Exam Guide: https://trailhead.salesforce.com/help?article=Salesforce-Certified-Administrator-Exam-Guide
+
+
+Salesforce Resources:
+
+1. Complete Salesforce's Trailhead Modules in order to prepare for the exam: https://trailhead.salesforce.com
+
+2. Salesforce Help: https://help.salesforce.com
+
+3. Salesforce Documentation: https://developer.salesforce.com/docs
+
+4. Salesforce Q&A Community Forum: https://trailblazer.salesforce.com
+
+ChatGPT' Scenario-based questions:
+https://chatgpt.com/c/69769090-8cfc-8333-bdc7-f4dfde9e3bf0
+
+Youtube Salesforce One Hour Course guide: https://youtu.be/19VTXemdr_o?si=mUNh2alyMXCaYAkq
