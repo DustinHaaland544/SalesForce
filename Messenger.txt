@@ -1,4 +1,4 @@
-Github: https://github.com/robertbunch/reactFromTheBeginning/tree/master/airbnb-clone
+Udemy: www.udemy.com/course/salesforce-administrator
 
 Salesforce ChatGPT Prompts: https://docs.google.com/document/d/1N14v1UVha4ebJaJij2XpEEXWFQt9wfthC166h8Uohi4/edit?tab=t.0#heading=h.4msudh86r7g8
 
