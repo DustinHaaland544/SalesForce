@@ -39,101 +39,142 @@
 
 [SCHEMA BUILDER] 
 
-13. Schema Builder is a drag-and-drop visual tool in Salesforce that allows the users to view, create, and modify objects, fields, and their relationships within an organization.
+13. Schema Builder is a drag-and-drop visual tool in Salesforce that allows the users to view, create, and modify objects, fields, and their relationships within 
+an organization.
 
 14. Record Types allow the administrators to offer different business processes, picklist values, and page layouts to different users for the same object.
 
-15. Organization-Wide Defaults (OWD) define the baseline level of access and the most restrictive settings for the records that a user does not own within an organization.
+15. Organization-Wide Defaults (OWD) define the baseline level of access and the most restrictive settings for the records that a user does not own within an 
+organization.
 
-16. The Role Hierarchy is a data-sharing mechanism that automatically grants the record access to the users higher in the hierarchy for any records owned by (or shared with) the users below them.
+16. The Role Hierarchy is a data-sharing mechanism that automatically grants the record access to the users higher in the hierarchy for any records owned by (or 
+shared with) the users below them.
 
-17. A Roll-Up Summary Field is a functional field on a Master object that calculates the values from the related records on a Detail object—but only when a Master-Detail relationship exists between them.
+17. A Roll-Up Summary Field is a functional field on a Master object that calculates the values from the related records on a Detail object—but only when a Master-
+Detail relationship exists between them.
 
 18. A Junction Object is a custom object with two Master-Detail relationships, used to create a many-to-many relationship between two separate objects.
 
-19. An Object is a database table that allows us to store the data specific to our organization; it acts as a template for creating the Records (the rows) and the Fields (the columns).
+19. An Object is a database table that allows us to store the data specific to our organization; it acts as a template for creating the Records (the rows) and the 
+Fields (the columns).
 
-20. A Custom Object is a user-defined database table designed to store the information unique to a business's specific needs, automatically identified by the __c suffix in its API name.
+20. A Custom Object is a user-defined database table designed to store the information unique to a business's specific needs, automatically identified by the __c 
+suffix in its API name.
 
-21. Standard Objects are the predefined database tables included with Salesforce by default (such as Accounts, Contacts, and Leads) that provide the built-in functionality and the relationships to support the common business processes.
+21. Standard Objects are the predefined database tables included with Salesforce by default (such as Accounts, Contacts, and Leads) that provide the built-in 
+functionality and the relationships to support the common business processes.
 
-22. A Master-Detail Relationship is a tight-coupling relationship between two objects where the Master record controls the display, ownership, and deletion of the related Detail records.
+22. A Master-Detail Relationship is a tight-coupling relationship between two objects where the Master record controls the display, ownership, and deletion of the 
+related Detail records.
 
-23. A Lookup Relationship is a loose-coupling relationship that links two objects together, allowing one record to reference another without affecting the ownership, security, or deletion of either record.
+23. A Lookup Relationship is a loose-coupling relationship that links two objects together, allowing one record to reference another without affecting the 
+ownership, security, or deletion of either record.
+
+24. The Reports are a set of records that meet the specific criteria and are displayed in the rows and the columns, while the Dashboards provide a visual 
+representation of the report data through the components like charts, gauges, and tables.
+
+25. A Cross-Object Formula Field is a read-only field on a 'child' object that uses a relationship (Lookup or Master-Detail) to pull and display the data from a 
+'parent' object.
+
+26. A Formula Field is a read-only field that derives its value from an expression defined by the administrator; it can use the constants, the other fields, or 
+the built-in functions to calculate and display the data.
+
+27. The Permission Sets are a collection of settings and permissions used to grant the users the additional access beyond their Profile, without changing their 
+existing Profile assignment.
+
+28. A Profile is a mandatory collection of settings and permissions that defines the baseline access for a user, determining which objects they can access, what 
+actions they can perform (CRUD), and how the user interface appears to them.
+
+29. The Data refers to the actual records and values stored in the system (like 'John Doe'), while the Metadata refers to the configuration, structure, and 'data 
+about the data' (like the 'Last Name' field itself)
+
+30. Login IP Ranges are a security setting—defined at the Profile level—that strictly limits the user access to a specific list of IP addresses; any login attempt 
+made from outside these ranges is automatically denied, regardless of the user's credentials.
+
+31. The Data Loader is a client application used for the bulk import or export of the data; it supports the large datasets (up to 5 million records) and allows 
+for the automation of the data operations via the command line.
+
+32. The Data Import Wizard is a built-in, web-based tool used to import up to 50,000 records for specific standard and all the custom objects; it includes the 
+built-in functionality to prevent the duplicates and trigger the workflow rules.
+
+33. Dataloader.io is a web-based data management tool powered by MuleSoft that allows the users to import, export, and delete the records in Salesforce with the 
+advanced features like the automatic field mapping and the scheduled tasks.
+
+34. A Page Layout is a tool that controls the organization of fields, related lists, and buttons on a record detail page, allowing the admins to customize the 
+user interface for different Profiles and Record Types.
+
+35. A Compact Layout determines which fields appear in the Highlights Panel at the top of a record in the Lightning Experience and in the list item view on the 
+Salesforce mobile app.
+
+36. A Validation Rule is a logic-based constraint that prevents a user from saving a record if the data does not meet specific criteria, ensuring the data quality 
+and the consistency across the organization.
+
+37. The Data Validation is the collective set of tools and processes—including field types, required-ness, and logic-based rules—used to ensure that all the data 
+entered in Salesforce is accurate, complete, and follows the business logic.
+
+38. The Duplicate Management is a two-part framework consisting of the Matching Rules (which identify potential duplicates) and the Duplicate Rules (which 
+determine the action taken when a duplicate is identified).
+
+39. A Duplicate Rule is an active configuration that uses a Matching Rule to identify the duplicates and specifies whether to Allow or Block a user from saving a 
+record, while also providing the options to alert the user or report on the occurrence.
+
+40. A Matching Rule is the specific criteria used to identify the duplicate records within an object or across the objects, utilizing either the Exact or the 
+Fuzzy matching logic to determine if two records are similar enough to be considered duplicates.
+
+41. Business Hours are a set of configurations that define the working schedule of our support team; they allow Salesforce to calculate the age and the deadlines 
+for the Cases and the milestones while excluding the holidays and the non-working hours.
+
+42. Login Hours are a security setting defined at the Profile level that specifies the days and times when the users assigned to that profile can log in; attempts 
+to access Salesforce outside of these hours are denied, and the active sessions are forcibly timed out.
+
+43. The Setup Audit Trail tracks the recent configuration changes made by the administrators, capturing the date, the time, the user who made the change, and 
+exactly what was modified in the Setup menu.
+
+44. A Case is a standard Salesforce object used to track and resolve the customer issues, featuring the built-in automation for Assignment, Escalation, and 
+Response to ensure the Service Level Agreements (SLAs) are met.
+
+45. The Escalation Rules automatically reassign a Case and/or notify specific users when a Case remains unresolved for a defined period of time, ensuring the 
+company meets its Service Level Agreements (SLAs).
+
+46. The Workflow Rules are a legacy automation tool that triggers specific actions (Task, Email, Field Update, or Outbound Message) when a record meets the 
+defined criteria; they operate strictly on the same record that triggered the rule.
+
+47. Agentforce is a suite of autonomous AI agents that integrate with the Salesforce data and the metadata to execute the business processes independently, using 
+a Reasoning Engine to determine the best course of action rather than following a pre-defined script.
+
+48. The Activity Management is a set of features that allows the users to track their interactions with the customers and the coworkers by linking the Tasks and 
+the Events to specific records, providing a complete chronological history of the relationship.
+
+49. A Task is a standard Salesforce record representing a business action to be completed; it features a status-driven lifecycle and can be linked to the people 
+(WhoID) and the business objects (WhatID) to provide a complete history of the engagement.
+
+50. An Event is a Salesforce record used to represent a scheduled meeting or appointment with a specific Start and End time; it can be synced with the external 
+calendars (like Outlook or Google) and linked to both people and business records.
 
 
+51. The Pipeline is the visual and the data-driven representation of the Opportunities at the various stages of the sales process, allowing the organizations to 
+track the potential revenue, identify the bottlenecks, and predict the future growth.
 
-24. The Reports are a set of records that meet the specific criteria and are displayed in the rows and the columns, while the Dashboards provide a visual representation of the report data through the components like charts, gauges, and tables.
+52. An Opportunity is a standard Salesforce object that represents a potential revenue-generating event; it tracks the lifecycle of a deal through the custom 
+Stages; each associated with a Probability percentage that contributes to the organization's Forecast. 
 
-25. A Cross-Object Formula Field is a read-only field on a 'child' object that uses a relationship (Lookup or Master-Detail) to pull and display the data from a 'parent' object.
+53. The Stages are the specific, sequential phases of a sales process that determine an Opportunity's Probability of closing and its Forecast Category, allowing 
+the system to calculate the 'Expected Revenue' and track the sales velocity.
 
-26. A Formula Field is a read-only field that derives its value from an expression defined by the administrator; it can use the constants, the other fields, or the built-in functions to calculate and display the data.
+54. The Forecasting is the process of estimating the future sales revenue by mapping the Opportunity Stages to the Forecast Categories, now enhanced by the 
+Agentic AI to provide the autonomous and the real-time adjustments based on the live deal signals and the historical win rates.
 
-27. The Permission Sets are a collection of settings and permissions used to grant the users the additional access beyond their Profile, without changing their existing Profile assignment.
+55. The Cascade Delete is a data integrity feature where the deletion of a parent record triggers the automatic deletion of all its associated child records, 
+ensuring that the 'orphan' records do not clutter the database.
 
-28. A Profile is a mandatory collection of settings and permissions that defines the baseline access for a user, determining which objects they can access, what actions they can perform (CRUD), and how the user interface appears to them.
+56. The Hard Delete is an administrative operation—typically performed via the Bulk API—that permanently erases the records from the Salesforce database without 
+moving them to the Recycle Bin, making them immediately unrecoverable through the standard UI or the API.
 
-29. The Data refers to the actual records and values stored in the system (like 'John Doe'), while the Metadata refers to the configuration, structure, and 'data about the data' (like the 'Last Name' field itself)
+57. The Bulk API is a specialized Salesforce interface designed for the high-volume data operations; it uses the parallel processing to handle the millions of 
+records efficiently while minimizing the number of API calls and staying within the governor limits.
 
-30. Login IP Ranges are a security setting—defined at the Profile level—that strictly limits the user access to a specific list of IP addresses; any login attempt made from outside these ranges is automatically denied, regardless of the user's credentials.
-
-31. The Data Loader is a client application used for the bulk import or export of the data; it supports the large datasets (up to 5 million records) and allows for the automation of the data operations via the command line.
-
-32. The Data Import Wizard is a built-in, web-based tool used to import up to 50,000 records for specific standard and all the custom objects; it includes the built-in functionality to prevent the duplicates and trigger the workflow rules.
-
-33. Dataloader.io is a web-based data management tool powered by MuleSoft that allows the users to import, export, and delete the records in Salesforce with the advanced features like the automatic field mapping and the scheduled tasks.
-
-34. A Page Layout is a tool that controls the organization of fields, related lists, and buttons on a record detail page, allowing the admins to customize the user interface for different Profiles and Record Types.
-
-35. A Compact Layout determines which fields appear in the Highlights Panel at the top of a record in the Lightning Experience and in the list item view on the Salesforce mobile app.
-
-36. A Validation Rule is a logic-based constraint that prevents a user from saving a record if the data does not meet specific criteria, ensuring the data quality and the consistency across the organization.
-
-37. The Data Validation is the collective set of tools and processes—including field types, required-ness, and logic-based rules—used to ensure that all the data entered in Salesforce is accurate, complete, and follows the business logic.
-
-38. The Duplicate Management is a two-part framework consisting of the Matching Rules (which identify potential duplicates) and the Duplicate Rules (which determine the action taken when a duplicate is identified).
-
-39. A Duplicate Rule is an active configuration that uses a Matching Rule to identify the duplicates and specifies whether to Allow or Block a user from saving a record, while also providing the options to alert the user or report on the occurrence.
-
-40. A Matching Rule is the specific criteria used to identify the duplicate records within an object or across the objects, utilizing either the Exact or the Fuzzy matching logic to determine if two records are similar enough to be considered duplicates.
-
-41. Business Hours are a set of configurations that define the working schedule of our support team; they allow Salesforce to calculate the age and the deadlines for the Cases and the milestones while excluding the holidays and the non-working hours.
-
-42. Login Hours are a security setting defined at the Profile level that specifies the days and times when the users assigned to that profile can log in; attempts to access Salesforce outside of these hours are denied, and the active sessions are forcibly timed out.
-
-43. The Setup Audit Trail tracks the recent configuration changes made by the administrators, capturing the date, the time, the user who made the change, and exactly what was modified in the Setup menu.
-
-44. A Case is a standard Salesforce object used to track and resolve the customer issues, featuring the built-in automation for Assignment, Escalation, and Response to ensure the Service Level Agreements (SLAs) are met.
-
-45. The Escalation Rules automatically reassign a Case and/or notify specific users when a Case remains unresolved for a defined period of time, ensuring the company meets its Service Level Agreements (SLAs).
-
-46. The Workflow Rules are a legacy automation tool that triggers specific actions (Task, Email, Field Update, or Outbound Message) when a record meets the defined criteria; they operate strictly on the same record that triggered the rule.
-
-47. Agentforce is a suite of autonomous AI agents that integrate with the Salesforce data and the metadata to execute the business processes independently, using a Reasoning Engine to determine the best course of action rather than following a pre-defined script.
-
-48. The Activity Management is a set of features that allows the users to track their interactions with the customers and the coworkers by linking the Tasks and the Events to specific records, providing a complete chronological history of the relationship.
-
-49. A Task is a standard Salesforce record representing a business action to be completed; it features a status-driven lifecycle and can be linked to the people (WhoID) and the business objects (WhatID) to provide a complete history of the engagement.
-
-50. An Event is a Salesforce record used to represent a scheduled meeting or appointment with a specific Start and End time; it can be synced with the external calendars (like Outlook or Google) and linked to both people and business records.
-
-
-51. The Pipeline is the visual and the data-driven representation of the Opportunities at the various stages of the sales process, allowing the organizations to track the potential revenue, identify the bottlenecks, and predict the future growth.
-
-52. An Opportunity is a standard Salesforce object that represents a potential revenue-generating event; it tracks the lifecycle of a deal through the custom Stages; each associated with a Probability percentage that contributes to the organization's Forecast. 
-
-53. The Stages are the specific, sequential phases of a sales process that determine an Opportunity's Probability of closing and its Forecast Category, allowing the system to calculate the 'Expected Revenue' and track the sales velocity.
-
-54. The Forecasting is the process of estimating the future sales revenue by mapping the Opportunity Stages to the Forecast Categories, now enhanced by the Agentic AI to provide the autonomous and the real-time adjustments based on the live deal signals and the historical win rates.
-
-55. The Cascade Delete is a data integrity feature where the deletion of a parent record triggers the automatic deletion of all its associated child records, ensuring that the 'orphan' records do not clutter the database.
-
-
-56. The Hard Delete is an administrative operation—typically performed via the Bulk API—that permanently erases the records from the Salesforce database without moving them to the Recycle Bin, making them immediately unrecoverable through the standard UI or the API.
-
-57. The Bulk API is a specialized Salesforce interface designed for the high-volume data operations; it uses the parallel processing to handle the millions of records efficiently while minimizing the number of API calls and staying within the governor limits.
-
-58. The Pipeline Inspection is a consolidated sales workspace that provides a single view of the pipeline health by surfacing AI-driven deal insights, activity metrics, and real-time changes in amount, stage, or close date.
+58. The Pipeline Inspection is a consolidated sales workspace that provides a single view of the pipeline health by surfacing AI-driven deal insights, activity 
+metrics, and real-time changes in amount, stage, or close date.
 
 59. Lead, Case, Opportunity, Solution = Business Processes = Record Types
 
@@ -143,115 +184,155 @@
 
 61. Metadata-driven Architecture = provides high customization = keeps the users' data safe from each other
 
-62. The File Storage is the space allocated for the binary data (documents, images, and videos) attached to the records or stored in the libraries; in 2026, it is optimized for the Agentic AI through 'grounding,' allowing agents to 'read' these files to provide the context-aware support.
+62. The File Storage is the space allocated for the binary data (documents, images, and videos) attached to the records or stored in the libraries; in 2026, it is 
+optimized for the Agentic AI through 'grounding,' allowing agents to 'read' these files to provide the context-aware support.
 
-63. The Summary Formulas are the custom calculations that evaluate the grouped data in a report using the mathematical functions and the logical operators; they allow for the cross-group comparisons and the calculation of the percentages relative to the total, without needing the permanent fields on the record.
-
-
+63. The Summary Formulas are the custom calculations that evaluate the grouped data in a report using the mathematical functions and the logical operators; they 
+allow for the cross-group comparisons and the calculation of the percentages relative to the total, without needing the permanent fields on the record.
 
 64. Row-Level Formula = Works by the Rows 
 
-A Row-Level Formula in Salesforce is a report feature that performs a calculation on each individual record (row) within a report without creating a field on the object.
+A Row-Level Formula in Salesforce is a report feature that performs a calculation on each individual record (row) within a report without creating a field on the 
+object.
 
-65. A Roll-Up Summary Field is a field on the parent object that performs the calculations (COUNT, SUM, MIN, MAX) on all the related child records and displays the result at the parent object. It is only available in the Master-Detail relationships.
+65. A Roll-Up Summary Field is a field on the parent object that performs the calculations (COUNT, SUM, MIN, MAX) on all the related child records and displays 
+the result at the parent object. It is only available in the Master-Detail relationships.
 
-66. A Row-Level Formula is a report-based calculation that evaluates each individual record dynamically without storing the data, whereas a Roll-Up Summary Field is an object-level field that aggregates the values (COUNT, SUM, MIN, MAX) from multiple child records and stores the result on the parent record, and it is only available in the Master-Detail relationships.
+66. A Row-Level Formula is a report-based calculation that evaluates each individual record dynamically without storing the data, whereas a Roll-Up Summary Field 
+is an object-level field that aggregates the values (COUNT, SUM, MIN, MAX) from multiple child records and stores the result on the parent record, and it is only 
+available in the Master-Detail relationships.
 
-67. The Change Sets are a point-and-click deployment tool used to migrate the metadata between the affiliated Salesforce orgs (e.g., Sandbox to Production); they need a Deployment Connection and allow the admins to package the dependencies without using the code or the external command-line tools.
+67. The Change Sets are a point-and-click deployment tool used to migrate the metadata between the affiliated Salesforce orgs (e.g., Sandbox to Production); they 
+need a Deployment Connection and allow the admins to package the dependencies without using the code or the external command-line tools.
 
 68. Change Set: Metadata transportation tool
 
-69. A Lead is a standard Salesforce object representing a prospect or potential customer who has not yet been qualified; it exists as a standalone record to keep the main database clean until the Lead Conversion process turns it into an Account, Contact, and (optionally) an Opportunity.
+69. A Lead is a standard Salesforce object representing a prospect or potential customer who has not yet been qualified; it exists as a standalone record to keep 
+the main database clean until the Lead Conversion process turns it into an Account, Contact, and (optionally) an Opportunity.
 
-70. An Account is the foundational standard object used to store the information about the organizations or the individuals; it serves as the primary anchor for the data relationships, security sharing, and Agentic AI grounding across the entire Salesforce platform.
+70. An Account is the foundational standard object used to store the information about the organizations or the individuals; it serves as the primary anchor for 
+the data relationships, security sharing, and Agentic AI grounding across the entire Salesforce platform.
 
-71. A Contact is a standard Salesforce object representing an individual associated with an Account; it serves as the primary target for marketing automation, sales outreach, and Agentic AI interactions, tracking the personal preferences and the engagement history.
+71. A Contact is a standard Salesforce object representing an individual associated with an Account; it serves as the primary target for marketing automation, 
+sales outreach, and Agentic AI interactions, tracking the personal preferences and the engagement history.
 
-72. A Record is a single instance of a Salesforce Object, composed of a collection of the Fields that store specific data about an item; in 2026, the records serve as the primary 'grounding' source for the Agentic AI, providing the context necessary for the autonomous reasoning and the execution.
+72. A Record is a single instance of a Salesforce Object, composed of a collection of the Fields that store specific data about an item; in 2026, the records 
+serve as the primary 'grounding' source for the Agentic AI, providing the context necessary for the autonomous reasoning and the execution.
 
-73. The Flow Builder is the primary declarative (point-and-click) tool for building the complex business logic; it allows the admins to automate the end-to-end processes, orchestrate the Agentforce Agents, and integrate the real-time data across the systems while maintaining the strict governance.
+73. The Flow Builder is the primary declarative (point-and-click) tool for building the complex business logic; it allows the admins to automate the end-to-end 
+processes, orchestrate the Agentforce Agents, and integrate the real-time data across the systems while maintaining the strict governance.
 
-74. Lightning App Builder is a point-and-click tool used to create the custom pages for Salesforce; it allows the admins to compose the dynamic experiences by dragging and dropping the standard and the custom components—including the Agentforce Agents and the Data 360 insights—onto a responsive canvas.
+74. Lightning App Builder is a point-and-click tool used to create the custom pages for Salesforce; it allows the admins to compose the dynamic experiences by 
+dragging and dropping the standard and the custom components—including the Agentforce Agents and the Data 360 insights—onto a responsive canvas.
 
+75. The Lightning Pages are the custom, component-based user interfaces that define the user experience in Salesforce; as of Summer '26, they serve as 'Agentic 
+Command Centers' where Dynamic Forms, real-time AI Content Summarizers, and responsive Agentforce components converge to provide the context-aware workflows 
+tailored to a user's device, role, and current record context.
 
+76. The Lightning Components (specifically Lightning Web Components) are the modular, standards-based building blocks of the Salesforce UI; in the Summer '26 era, 
+they serve as 'Intelligent Micro-Apps' that leverage the native browser performance to deliver real-time, inter-connected, and Agentforce-ready experiences across 
+the desktop and the mobile.
 
-
-75. The Lightning Pages are the custom, component-based user interfaces that define the user experience in Salesforce; as of Summer '26, they serve as 'Agentic Command Centers' where Dynamic Forms, real-time AI Content Summarizers, and responsive Agentforce components converge to provide the context-aware workflows tailored to a user's device, role, and current record context.
-
-76. The Lightning Components (specifically Lightning Web Components) are the modular, standards-based building blocks of the Salesforce UI; in the Summer '26 era, they serve as 'Intelligent Micro-Apps' that leverage the native browser performance to deliver real-time, inter-connected, and Agentforce-ready experiences across the desktop and the mobile.
-
-77. A Page Layout controls the visibility and the organization of fields, buttons, and related lists on a record, whereas a Lightning Record Page controls the overall user interface by arranging the components and enabling the dynamic and the customizable layouts in the Lightning Experience.
+77. A Page Layout controls the visibility and the organization of fields, buttons, and related lists on a record, whereas a Lightning Record Page controls the 
+overall user interface by arranging the components and enabling the dynamic and the customizable layouts in the Lightning Experience.
 
 78. (everything) Compact Layout = Compact view (top highlights)
 
-79. A Page Layout controls the complete structure of a record by organizing fields, sections, buttons, and related lists, whereas a Compact Layout defines a limited set of key fields (up to 10) displayed in the highlights panel and the mobile view for a quick summary of the record.
+79. A Page Layout controls the complete structure of a record by organizing fields, sections, buttons, and related lists, whereas a Compact Layout defines a 
+limited set of key fields (up to 10) displayed in the highlights panel and the mobile view for a quick summary of the record.
 
+80. The Data Import Wizard is a web-based, user-friendly tool used for importing up to 50,000 records with the limited functionality, whereas the Data Loader is a 
+more powerful client application that supports the large data volumes (up to millions of records) and provides the advanced operations such as export, delete, and 
+automation.
 
+81. The Business Hours define the operational hours used by Salesforce processes like case escalation and SLA tracking, whereas the Login Hours restrict the 
+specific times during which the users can log in to Salesforce based on their profile.
 
-80. The Data Import Wizard is a web-based, user-friendly tool used for importing up to 50,000 records with the limited functionality, whereas the Data Loader is a more powerful client application that supports the large data volumes (up to millions of records) and provides the advanced operations such as export, delete, and automation.
+82. A Managed Package is a versioned, upgradeable, and partially protected bundle of components controlled by the publisher, typically used for the AppExchange 
+distribution, whereas an Unmanaged Package is a fully editable, non-upgradeable set of components intended for the one-time use or the customization.
 
-81. The Business Hours define the operational hours used by Salesforce processes like case escalation and SLA tracking, whereas the Login Hours restrict the specific times during which the users can log in to Salesforce based on their profile.
+83. The Data refers to the actual records stored in the Salesforce objects (such as accounts, contacts, and opportunities), whereas the Metadata refers to the 
+configuration and the structural components (such as objects, fields, layouts, and automation) that define how the data is organized, displayed, and managed.
 
-82. A Managed Package is a versioned, upgradeable, and partially protected bundle of components controlled by the publisher, typically used for the AppExchange distribution, whereas an Unmanaged Package is a fully editable, non-upgradeable set of components intended for the one-time use or the customization.
+84. A Master-Detail Relationship is a tightly coupled relationship in which the child record is dependent on the parent for ownership, security, and existence 
+(including cascade delete and roll-up summaries), whereas a Lookup Relationship is a loosely coupled relationship where the child record remains independent, with 
+optional association, separate ownership, and no native roll-up summary support.
 
-83. The Data refers to the actual records stored in the Salesforce objects (such as accounts, contacts, and opportunities), whereas the Metadata refers to the configuration and the structural components (such as objects, fields, layouts, and automation) that define how the data is organized, displayed, and managed.
+85. An Object is a database table in Salesforce that stores a collection of records representing a business entity, whereas a Field is an individual attribute 
+within that object that stores specific pieces of data for each record.
 
-84. A Master-Detail Relationship is a tightly coupled relationship in which the child record is dependent on the parent for ownership, security, and existence (including cascade delete and roll-up summaries), whereas a Lookup Relationship is a loosely coupled relationship where the child record remains independent, with optional association, separate ownership, and no native roll-up summary support.
+86. A Validation Rule ensures the data integrity by preventing a record from being saved if certain conditions are not met and displaying an error message, 
+whereas the Workflow Rule automates the actions such as field updates, email alerts, and tasks after a record has been successfully saved.
 
+87. The Schema Builder is a visual tool used to design and manage the data model by creating and modifying objects, fields, and relationships, whereas the Reports 
+and Dashboards are used to analyze and visualize the actual data records to provide the business insights and the metrics.
 
+88. The Global Actions allow the users to create the records or perform the actions from anywhere in Salesforce without being tied to a specific object, whereas 
+the Object-Specific Actions are tied to a particular object and automatically associate the action with the current record context.
 
-85. An Object is a database table in Salesforce that stores a collection of records representing a business entity, whereas a Field is an individual attribute within that object that stores specific pieces of data for each record.
+89. A Permission Set is used to grant the additional permissions and the access rights to the users within the same org without modifying their profile, whereas a 
+Change Set is used to deploy the metadata and the configuration changes from one Salesforce environment (such as a sandbox) to another (such as production).
 
-86. A Validation Rule ensures the data integrity by preventing a record from being saved if certain conditions are not met and displaying an error message, whereas the Workflow Rule automates the actions such as field updates, email alerts, and tasks after a record has been successfully saved.
+90. A Matching Rule defines the criteria and the logic used to identify the potential duplicate records based on the selected fields and the matching methods, 
+whereas a Duplicate Rule uses those matching rules to control whether the duplicates are allowed, blocked, or flagged with the alerts when the users create or 
+update the records.
 
-87. The Schema Builder is a visual tool used to design and manage the data model by creating and modifying objects, fields, and relationships, whereas the Reports and Dashboards are used to analyze and visualize the actual data records to provide the business insights and the metrics.
+91. The Assignment Rules automatically assign the new leads or the cases to the users or the queues based on the defined criteria at the time of creation, whereas 
+the Escalation Rules automatically reassign or notify the users about the cases that are not resolved within the specified time limits.
 
-88. The Global Actions allow the users to create the records or perform the actions from anywhere in Salesforce without being tied to a specific object, whereas the Object-Specific Actions are tied to a particular object and automatically associate the action with the current record context.
+92. A Row-Level Formula performs the calculations on each individual record within a report without requiring grouping, whereas a Summary Formula performs the 
+calculations on the aggregated data across the grouped records to provide the totals or the metrics at the group or the report level.
 
-89. A Permission Set is used to grant the additional permissions and the access rights to the users within the same org without modifying their profile, whereas a Change Set is used to deploy the metadata and the configuration changes from one Salesforce environment (such as a sandbox) to another (such as production).
+93. The Email-to-Case automatically creates the cases from the incoming customer emails, including the support for the attachments and the email routing, whereas 
+the Web-to-Case generates the cases from the information submitted through a web form on a website.
 
+94. A Lead represents a potential customer who has not yet been qualified or converted into an account, contact, or opportunity in the sales process, whereas a 
+Case represents a customer issue or support request that needs to be tracked and resolved by the service team.
 
+95. A Profile defines the baseline permissions and the access settings that every user must have in Salesforce, including the object access, the login hours, and 
+the IP restrictions, whereas the Permission Sets are used to grant the additional permissions on top of the profile, allowing more flexible and scalable access 
+control without modifying the user’s base profile.
 
-90. A Matching Rule defines the criteria and the logic used to identify the potential duplicate records based on the selected fields and the matching methods, whereas a Duplicate Rule uses those matching rules to control whether the duplicates are allowed, blocked, or flagged with the alerts when the users create or update the records.
+96. A *Cross-Object Formula Field* is a read-only Salesforce field created on a child record that uses a lookup or a master-detail relationship to look "upward" 
+and dynamically pull, calculate, or display the information directly from a parent or grandparent record, ensuring that any changes to the original source data 
+are instantly reflected across all the related records without needing the manual updates or the duplicate data entry.
 
-91. The Assignment Rules automatically assign the new leads or the cases to the users or the queues based on the defined criteria at the time of creation, whereas the Escalation Rules automatically reassign or notify the users about the cases that are not resolved within the specified time limits.
+97. A Row-Level Formula Field is a custom, real-time calculation built directly within a Salesforce report that evaluates the data on a single record row at a 
+time to output specific text, numbers, dates, or Boolean values, allowing the users to perform the granular and the record-by-record math on the fly without 
+cluttering the global database with the permanent object fields.
 
-92. A Row-Level Formula performs the calculations on each individual record within a report without requiring grouping, whereas a Summary Formula performs the calculations on the aggregated data across the grouped records to provide the totals or the metrics at the group or the report level.
+98. A Roll-Up Summary Field is a read-only Salesforce field created on a master record within a master-detail relationship that looks "downward" to automatically 
+calculate and display the sum, count, minimum, or maximum value of a specific field across all its related detail records, ensuring that the master record's 
+aggregate totals update instantly whenever those child records are modified.
 
-93. The Email-to-Case automatically creates the cases from the incoming customer emails, including the support for the attachments and the email routing, whereas the Web-to-Case generates the cases from the information submitted through a web form on a website.
+99. A Summary Formula Field is a custom calculation built exclusively inside a Salesforce report that evaluates the data aggregates at specific grouping or grand 
+total levels, allowing the users to calculate complex percentages, ratios, and averages across the entire categories of the records without permanently altering 
+the global database.
 
-94. A Lead represents a potential customer who has not yet been qualified or converted into an account, contact, or opportunity in the sales process, whereas a Case represents a customer issue or support request that needs to be tracked and resolved by the service team.
+100. The Metadata API is the underlying programmatic engine used to manage, retrieve, deploy, and delete an organization's configuration and customization data 
+(Metadata) as structured XML files; on the Admin exam, it is recognized as the backbone that powers the declarative deployment tools like Change Sets and DevOps 
+Center, and the mechanism needed to move the massive architectural changes between the Sandboxes and the Production.
 
+101. An Opportunity is a standard Salesforce object used to track, manage, and forecast the ongoing revenue-generating events, sales deals, or business 
+transactions; on the Admin exam, it is evaluated by its structural dependencies on the Accounts and the Contacts, its progression through the automated Sales 
+Paths, and its native calculations via Opportunity Products, Pricebooks, and Quotes.
 
-
-
-95. A Profile defines the baseline permissions and the access settings that every user must have in Salesforce, including the object access, the login hours, and the IP restrictions, whereas the Permission Sets are used to grant the additional permissions on top of the profile, allowing more flexible and scalable access control without modifying the user’s base profile.
-
-96. A *Cross-Object Formula Field* is a read-only Salesforce field created on a child record that uses a lookup or a master-detail relationship to look "upward" and dynamically pull, calculate, or display the information directly from a parent or grandparent record, ensuring that any changes to the original source data are instantly reflected across all the related records without needing the manual updates or the duplicate data entry.
-
-97. A Row-Level Formula Field is a custom, real-time calculation built directly within a Salesforce report that evaluates the data on a single record row at a time to output specific text, numbers, dates, or Boolean values, allowing the users to perform the granular and the record-by-record math on the fly without cluttering the global database with the permanent object fields.
-
-98. A Roll-Up Summary Field is a read-only Salesforce field created on a master record within a master-detail relationship that looks "downward" to automatically calculate and display the sum, count, minimum, or maximum value of a specific field across all its related detail records, ensuring that the master record's aggregate totals update instantly whenever those child records are modified.
-
-
-
-99. A Summary Formula Field is a custom calculation built exclusively inside a Salesforce report that evaluates the data aggregates at specific grouping or grand total levels, allowing the users to calculate complex percentages, ratios, and averages across the entire categories of the records without permanently altering the global database.
-
-100. The Metadata API is the underlying programmatic engine used to manage, retrieve, deploy, and delete an organization's configuration and customization data (Metadata) as structured XML files; on the Admin exam, it is recognized as the backbone that powers the declarative deployment tools like Change Sets and DevOps Center, and the mechanism needed to move the massive architectural changes between the Sandboxes and the Production.
-
-101. An Opportunity is a standard Salesforce object used to track, manage, and forecast the ongoing revenue-generating events, sales deals, or business transactions; on the Admin exam, it is evaluated by its structural dependencies on the Accounts and the Contacts, its progression through the automated Sales Paths, and its native calculations via Opportunity Products, Pricebooks, and Quotes.
-
-102. Freezing a user immediately prevents them from logging in while keeping the user account active and consuming a license, whereas Deactivation makes the user inactive, prevents the login, and releases the Salesforce license for reassignment to another user.
+102. Freezing a user immediately prevents them from logging in while keeping the user account active and consuming a license, whereas Deactivation makes the user 
+inactive, prevents the login, and releases the Salesforce license for reassignment to another user.
 
  [IMPORTANT] 
 
 103. The Login Hours do not affect the background automation jobs like the Apex Triggers or the Scheduled Jobs.
 
-104. Profile Login IP Ranges restrict the users to logging in only from the specified IP addresses and block the access from all others, whereas Organization Trusted IP Ranges identify the trusted network locations that allow the users to bypass the identity verification challenges while still permitting the logins from other IP addresses after the successful verification.
+104. Profile Login IP Ranges restrict the users to logging in only from the specified IP addresses and block the access from all others, whereas Organization 
+Trusted IP Ranges identify the trusted network locations that allow the users to bypass the identity verification challenges while still permitting the logins 
+from other IP addresses after the successful verification.
 
-105. Price Book is a catalog of products and their prices that allows the Salesforce users to sell the same products at different prices for different customers, markets, or business scenarios.
+105. Price Book is a catalog of products and their prices that allows the Salesforce users to sell the same products at different prices for different customers, 
+markets, or business scenarios.
 
-106. Controlled by Parent is a record-level sharing setting that automatically grants the users the same level of access to a child record that they have to its parent record, ensuring that the child record's visibility and the permissions are inherited from and governed entirely by the parent record's sharing settings.
+106. Controlled by Parent is a record-level sharing setting that automatically grants the users the same level of access to a child record that they have to its 
+parent record, ensuring that the child record's visibility and the permissions are inherited from and governed entirely by the parent record's sharing settings.
 
 107. Private: Only the record owner and only the users above the owner (via the Role Hierarchy) can access the record but others cannot
 
@@ -259,48 +340,63 @@ A Row-Level Formula in Salesforce is a report feature that performs a calculatio
 
 109. The OWD settings can be overridden by the Sharing Rules, which can provide the additional access to the users on top of the OWD
 
-110. The Field-Level Security is a Salesforce security feature that controls whether the users can view or edit specific fields on a record, regardless of their access to the object or the record itself.
+110. The Field-Level Security is a Salesforce security feature that controls whether the users can view or edit specific fields on a record, regardless of their 
+access to the object or the record itself.
 
-111. Grant Access Using Hierarchies is a record-level security setting that automatically allows the users higher in the role hierarchy to access the records owned by the users below them.
-112. Pipeline is a visual and measurable representation of all the open opportunities those are moving through the various stages of the sales cycle, allowing the sales teams and the managers to track the deal progress, estimate the future revenue, identify the bottlenecks, prioritize the activities, and forecast the business growth based on the potential value and the likelihood of closing each opportunity.
+111. Grant Access Using Hierarchies is a record-level security setting that automatically allows the users higher in the role hierarchy to access the records 
+owned by the users below them.
 
-113. Pipeline Inspection is a sales productivity feature in Salesforce, that consolidates the opportunity data and the pipeline changes into a single interactive view, enabling the sales representatives and the managers to track the deal movement, monitor the changes in the amounts, the stages, and the close dates, identify the at-risk opportunities, prioritize the follow-up actions, and make the more informed forecasting and the revenue-planning decisions.
+112. Pipeline is a visual and measurable representation of all the open opportunities those are moving through the various stages of the sales cycle, allowing the 
+sales teams and the managers to track the deal progress, estimate the future revenue, identify the bottlenecks, prioritize the activities, and forecast the 
+business growth based on the potential value and the likelihood of closing each opportunity.
 
-114. Modify All is a Salesforce object permission that effectively bypasses all the record-level sharing mechanisms, including Organization-Wide Defaults, role hierarchy, sharing rules, teams, territories, and manual sharing, by granting the users unrestricted access to view, create, edit, transfer, and delete every record of a specific object. 
+113. Pipeline Inspection is a sales productivity feature in Salesforce, that consolidates the opportunity data and the pipeline changes into a single interactive 
+view, enabling the sales representatives and the managers to track the deal movement, monitor the changes in the amounts, the stages, and the close dates, 
+identify the at-risk opportunities, prioritize the follow-up actions, and make the more informed forecasting and the revenue-planning decisions.
 
-115. Apex Sharing is a programmatic record-sharing mechanism that uses the Apex code to grant the users the access to the records based on the custom business logic.
+114. Modify All is a Salesforce object permission that effectively bypasses all the record-level sharing mechanisms, including Organization-Wide Defaults, role 
+hierarchy, sharing rules, teams, territories, and manual sharing, by granting the users unrestricted access to view, create, edit, transfer, and delete every 
+record of a specific object. 
 
-116. Manual Sharing is a Salesforce record-sharing mechanism that enables a record owner, administrator, or user with the appropriate access to the individually grant read-only or the read/write access to a specific record for another user, role, or the public group, making it ideal for handling the exceptional or the one-time sharing requirements without modifying the broader organization-wide sharing settings or creating the automated sharing rules.
-117. The Sharing Rules are the automatic record-sharing mechanisms that grant the additional access to the groups of users beyond the Organization-Wide Defaults based on the record ownership or the record criteria.
+115. Apex Sharing is a programmatic record-sharing mechanism that uses the Apex code to grant the users the access to the records based on the custom business 
+logic.
 
-118. Enterprise Territory Management is a Salesforce feature that grants account the access and organizes the sales coverage based on the territories such as geography, industry, or market segment rather than the role hierarchy.
+116. Manual Sharing is a Salesforce record-sharing mechanism that enables a record owner, administrator, or user with the appropriate access to the individually 
+grant read-only or the read/write access to a specific record for another user, role, or the public group, making it ideal for handling the exceptional or the one-
+time sharing requirements without modifying the broader organization-wide sharing settings or creating the automated sharing rules.
 
-119. Setup Audit Trail is a Salesforce administrative auditing feature that maintains a history of configuration and setup modifications across the organization by recording the details such as the user who performed the change, the date and the time of the action, and the specific setup component affected, enabling the administrators to monitor the system changes, investigate the issues, and the support governance and the compliance requirements.
+117. The Sharing Rules are the automatic record-sharing mechanisms that grant the additional access to the groups of users beyond the Organization-Wide Defaults 
+based on the record ownership or the record criteria.
 
-120. Opportunity Teams are the groups of users who collaborate on an Opportunity and are granted the specific access levels and the team roles without changing the Opportunity owner.
+118. Enterprise Territory Management is a Salesforce feature that grants account the access and organizes the sales coverage based on the territories such as 
+geography, industry, or market segment rather than the role hierarchy.
 
-121. Age Over is a Salesforce filtering criterion used in the reports and the list views to identify the records that have existed for longer than a specified number of days, enabling the users to monitor the aging leads, the opportunities, the cases, and the other records that may need the review, the follow-up, the escalation, or the corrective action.
+119. Setup Audit Trail is a Salesforce administrative auditing feature that maintains a history of configuration and setup modifications across the organization 
+by recording the details such as the user who performed the change, the date and the time of the action, and the specific setup component affected, enabling the 
+administrators to monitor the system changes, investigate the issues, and the support governance and the compliance requirements.
 
+120. Opportunity Teams are the groups of users who collaborate on an Opportunity and are granted the specific access levels and the team roles without changing 
+the Opportunity owner.
 
+121. Age Over is a Salesforce filtering criterion used in the reports and the list views to identify the records that have existed for longer than a specified 
+number of days, enabling the users to monitor the aging leads, the opportunities, the cases, and the other records that may need the review, the follow-up, the 
+escalation, or the corrective action.
 
-
-
-122. The Case object is a standard Salesforce customer service and support object that enables the organizations to record, track, assign, escalate, and resolve customer issues, inquiries, complaints, and service requests throughout their lifecycle while maintaining the complete visibility into the status, ownership, priority, and the history of each support interaction.
+122. The Case object is a standard Salesforce customer service and support object that enables the organizations to record, track, assign, escalate, and resolve 
+customer issues, inquiries, complaints, and service requests throughout their lifecycle while maintaining the complete visibility into the status, ownership, 
+priority, and the history of each support interaction.
 
 123. Once enabled, the Custom Fiscal Year cannot be disabled. Only use it if the company absolutely needs it.
 
 124. In the Standard Fiscal Year settings, if the fiscal year starts in April 2025 - then the Fiscal Year is called: FY2025
 
+125. The Fiscal Year is a Salesforce financial reporting framework that defines the organization's accounting and business reporting cycle, allowing the companies 
+to align forecasts, quotas, opportunity revenue tracking, dashboards, and reports with their chosen financial calendar, which may follow either a standard monthly 
+structure or a customized accounting period that differs from the traditional January-to-December calendar year.
 
-
-
-125. The Fiscal Year is a Salesforce financial reporting framework that defines the organization's accounting and business reporting cycle, allowing the companies to align forecasts, quotas, opportunity revenue tracking, dashboards, and reports with their chosen financial calendar, which may follow either a standard monthly structure or a customized accounting period that differs from the traditional January-to-December calendar year.
-
-
-
-
-
-126. A Master-Detail Relationship is a Salesforce relationship type that tightly links a child object to a parent object by making the child record dependent on the parent for ownership, record-level security, and lifecycle management, while also supporting the features such as Controlled by Parent sharing, cascade deletion, and Roll-Up Summary Fields that aggregate the data from the child records to the parent record.
+126. A Master-Detail Relationship is a Salesforce relationship type that tightly links a child object to a parent object by making the child record dependent on 
+the parent for ownership, record-level security, and lifecycle management, while also supporting the features such as Controlled by Parent sharing, cascade 
+deletion, and Roll-Up Summary Fields that aggregate the data from the child records to the parent record.
 
 Master-Detail = Required Parent
 + Controlled by Parent
@@ -308,7 +404,9 @@ Master-Detail = Required Parent
 + Cascade Delete
 + Roll-Up Summary Fields
 
-127. A Lookup Relationship is a Salesforce object relationship that associates the records from one object with the records from another object while maintaining independent ownership, record-level security, and lifecycle management, allowing the child record to exist without a parent record and providing a flexible relationship model that does not support the Roll-Up Summary Fields or the automatic inheritance of the access permissions.
+127. A Lookup Relationship is a Salesforce object relationship that associates the records from one object with the records from another object while maintaining 
+independent ownership, record-level security, and lifecycle management, allowing the child record to exist without a parent record and providing a flexible 
+relationship model that does not support the Roll-Up Summary Fields or the automatic inheritance of the access permissions.
 
 Lookup Relationship = Optional Parent
 + Independent Ownership
@@ -319,30 +417,20 @@ Lookup Relationship = Optional Parent
 
 128. Once the multi-Currency is enabled, it cannot be disabled 
 
-
 129. A Canadian sales rep enters the deal in Canadian dollars. The corporate currency is set to USD. What will be shown in the org-wide reports? 
 
 -	USD
 
-130. The Advanced Currency Management is a Salesforce feature that uses the historical exchange rates for the currency conversions, ensuring the accurate reporting and the forecasting over time.
+130. The Advanced Currency Management is a Salesforce feature that uses the historical exchange rates for the currency conversions, ensuring the accurate 
+reporting and the forecasting over time.
 
+131. The Object Manager is the central Salesforce administration interface that allows the admins and the developers to manage the object-specific settings such 
+as fields, relationships, page layouts, record types, validation rules, compact layouts, and automation, making it the primary location for customizing both the 
+standard objects and the custom objects within an organization.
 
-
-131. The Object Manager is the central Salesforce administration interface that allows the admins and the developers to manage the object-specific settings such as fields, relationships, page layouts, record types, validation rules, compact layouts, and automation, making it the primary location for customizing both the standard objects and the custom objects within an organization.
-
-132. Multi-Tenant Architecture is Salesforce's foundational cloud architecture in which multiple organizations share the same application, database, and infrastructure resources while maintaining the complete separation of data, metadata, and security settings, enabling Salesforce to provide scalable services, automatic upgrades, lower costs, and centralized maintenance to all the customers.
-
-
-
-
-
-
-
-
-
-
-
-
+132. Multi-Tenant Architecture is Salesforce's foundational cloud architecture in which multiple organizations share the same application, database, and 
+infrastructure resources while maintaining the complete separation of data, metadata, and security settings, enabling Salesforce to provide scalable services, 
+automatic upgrades, lower costs, and centralized maintenance to all the customers.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
