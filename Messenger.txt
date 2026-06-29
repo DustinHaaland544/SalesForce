@@ -112,7 +112,7 @@ and the consistency across the organization.
 37. The Data Validation is the collective set of tools and processes—including field types, required-ness, and logic-based rules—used to ensure that all the data 
 entered in Salesforce is accurate, complete, and follows the business logic.
 
-38. The Duplicate Management is a two-part framework consisting of the Matching Rules (which identify potential duplicates) and the Duplicate Rules (which 
+38. The Duplicate Management is a two-part framework consisting of the Matching Rules (which identify the potential duplicates) and the Duplicate Rules (which 
 determine the action taken when a duplicate is identified).
 
 39. A Duplicate Rule is an active configuration that uses a Matching Rule to identify the duplicates and specifies whether to Allow or Block a user from saving a 
